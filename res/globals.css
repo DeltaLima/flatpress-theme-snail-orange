@@ -1,0 +1,55 @@
+/*
+Theme Name: Snail-orange
+Author: Marcoverga86
+Version: 2.0
+Module: globals.css
+*/
+
+.alignleft { float: left }
+.alignright { float: right }
+
+/* ===== NOTIFICATION ===== */
+#main ul.msgs, ul.msgs {
+	margin-top: 1em;
+	margin-left: 0em;
+	padding: 1em 2em;
+}
+
+.errors { 
+	border: 2px solid red;
+	background: white;
+}
+
+
+.notifications {
+	/*color: #315A94;*/
+  color: #f6b26b;
+	border-top: 2px solid blue;
+	border-bottom: 2px solid blue;
+	background: white;
+}
+
+msgs errors ul li a {
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold
+}
+
+.field-error {
+	border: 2px solid white;
+	background: #FF6666;
+}
+
+.warnings {
+	background: #6699FF none repeat scroll 0%;
+	color: white;
+}
+
+#admin-content ul.msgs {
+	margin-left: 0em;
+	margin-bottom: 2em;
+	padding: 1em 2em;
+	list-style-type: none
+}
+
+background: white;

@@ -1,0 +1,13 @@
+/*
+Theme Name: Snail-orange
+Author: Marcoverga86
+Version: 2.0
+Module: style.css
+*/
+
+/* imports common style ruleset */
+@import url(common.css);
+@import url(globals.css);
+
+/* imports column (where widgets usually go) rules */
+@import url(column.css);

@@ -1,0 +1,376 @@
+/*
+Name: Snail-orange
+Author: Marcoverga86
+Version: 2.0
+Module: admin.css
+*/
+
+@import url(common.css);
+@import url(globals.css);
+
+/* ===== HEADERS TAGS ===== */
+h1.title { 
+	text-align: center;
+	margin-top: 20px;
+}
+
+#admin-content h2 {
+	font-size: 1.7em;
+	margin-bottom: 0.5em;
+}
+
+/* DIV CONTAINER ALL ADMIN DIV BLOCK */
+#cpmain { 
+	padding: 10px;
+	background: #2D2D2D;
+}
+
+/* ===== SMALL NAVBAR (home and logout links) ===== */
+ul#admin-small-nav {
+	font-size: 80%;
+	float: right;
+	list-style-type: none
+}
+
+ul#admin-small-nav li { display: inline; margin: 5px }
+
+/* ===== DRAFTS ===== */
+#admin-drafts {
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	padding: .4em;
+	background-color: #444444;
+	overflow: auto;
+}
+
+#admin-drafts p {
+	font-weight: bold;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#admin-content #admin-drafts ul { margin: 0; padding: 0}
+
+#admin-drafts li {
+	float:left;
+	list-style-type: none;
+	margin-left: 15px;
+	padding-left: 1em;
+}
+
+/* ===== TAB MENU ===== */
+ul#admin-tabmenu {
+	text-align: center;
+	margin: 1em 0 0 0;
+	padding: .5em;
+	border-top: solid 2px #003399;
+	border-bottom: solid 2px #003399;
+}
+
+ul#admin-tabmenu li, ul#admin-submenu li {
+	display: inline;
+	font-size: 85%;
+	font-weight: normal;
+	text-decoration: none
+}
+
+ul#admin-tabmenu li a {
+	color: #222;
+	line-height: 2em;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 0.5em;
+	background-color: #fff
+}
+
+ul#admin-tabmenu li a:hover {
+	color: black;
+	font-weight: normal;
+	background-color: #A29D7D
+}
+
+ul#admin-tabmenu a#admin-tab-current {
+	font-weight: bold;
+	background-color: #DAAA55
+}
+
+/* ===== SUBMENU ====== */
+#admin-submenu {	
+	text-align: center;
+	padding: .1em .3em .2em;
+}
+
+#admin-submenu li {
+	display: inline;
+	font-size: 80%;
+	margin-right: 5px
+}
+
+#admin-submenu li a {
+	padding: 2px 5px 1px 5px;
+	color: black;
+	font-weight: normal;
+	background: white;
+}
+
+#admin-submenu li a:hover {
+	padding: 2px 5px 1px 5px;
+	background: #DEAA52;
+	border-top: 4px solid #003399;
+	border-bottom: 3px solid #DEAA52;
+	text-decoration: none;
+	color: white;	
+}
+
+#admin-submenu li a.active {
+	color: white;
+	background: #A59E7B;
+	font-weight: bold;
+	padding: 2px 5px 1px 5px;
+	border-top: 4px solid #0066FF;
+	border-bottom: 3px solid #A59E7B;
+}
+
+/* ===== MAIN MENU ITEM ===== */
+#admin-content { padding: 1em }
+.admin-mainmenu-item img { padding-right: 1em }
+
+.admin-mainmenu-item {
+	display: block;
+	padding: 1em;
+	clear: both
+}
+
+.admin-mainmenu-item .admin-icon-descr {
+	font-size: 80%;
+	font-style: italic
+}
+
+/* ===== ADMIN ENTRY ===== */
+input#subject {
+	width: 100%;
+	font-size: 1.3em;
+	color: #333333;
+	font-weight: bold
+}
+
+textarea.code {
+	font-family: monospace, Lucida Console, Monaco, monospace;
+	font-size: 90%
+}
+
+textarea#content { background: #777777 }
+#admin-entry-categories ul li { padding: 0 }
+#admin-bbcode-toolbar p { display: inline }
+#admin-bbcode-toolbar select { width: 10em }
+
+#admin-entry-categories ul {
+	display:block;
+	list-style-type: none;
+	margin-right: 10px;
+	padding-left: 1em
+}
+
+#admin-content table { 
+	width: 100%;
+	border-collapse: collapse
+}
+
+#admin-content td.main-cell {
+	text-align:left;
+	width:30%;
+}
+
+#admin-content td {
+	font-size: 11px;
+	padding: 4px;
+	background:#333333 none repeat scroll 0%;
+	text-align: center;
+	border: 2px solid #777777;
+}
+
+#admin-content th {
+	background:#222222 none repeat scroll 0%;
+	font-size:0.75em;
+	text-align:center;
+	padding: 4px;
+	border: 2px solid #777777;
+}
+
+#plugin-table-body td { padding: 1em .6em }
+#admin-bbcode-toolbar legend { display: none }
+#admin-content ul { margin-left: 2em }
+#admin-content ul li{ padding: 0 }
+input.maxsize, select.maxsize { width: 100% }
+.link-general { padding: 0 5px 0 5px }
+
+#admin-bbcode-toolbar {
+	margin: 0;
+	padding: 0;
+	padding-right: 0.7%;
+	border: none
+}
+
+/* ===== WIDGET PANEL ====== */
+#admin-widgetset-list { width: 30em }
+
+#admin-widgetset-list ul {
+	list-style-type: none;
+	margin: 0;
+	margin-bottom: 2em;
+	text-align: left;
+}
+
+li.admin-widgetset {
+	padding: .5em;
+	margin-bottom: 2em;
+	border: 1px solid #666666;
+}
+
+#available-widgets {
+	border: 1px solid #666666;
+	font-size: 80%;
+	float: right;
+	padding: 1em;
+	width: 30%;
+	z-index: 1000;
+	position: relative;
+	text-align: left;
+}
+
+#widget-trashcan {
+	background-color: #CC3333;
+	color: #ddd;
+	font-size: 120%;
+	font-weight: bold;
+	padding: 2em;
+	text-align: center;
+	margin: 2em;
+}
+
+#available-widgets ul, .admin-widgetset ul { padding-left: 0; margin-left: 0 }
+#available-widgets p, .admin-widgetset p { margin: 0 0.5em }
+
+li.widget-instance, li.widget-class {
+	cursor: move;
+	border: 1px solid #666666;
+	margin: 3px;
+	padding: .5em;
+	height: 20px;
+	list-style-type: none;
+}
+
+.admin-widgetset h3 {
+	margin-bottom: 1em;
+	padding: .3em;
+	background: #333333;
+	text-align: center;
+}
+
+#available-widgets h2 {
+	cursor: move;
+	color: white;
+	margin-bottom: 1em;
+	padding: .3em;
+	background: #333333;
+	margin-top: 0;
+}
+
+.widget-instance .textinput {
+	background: transparent;
+	font-weight: bold;
+	font-style: oblique;
+	color: white;
+	border: #0066FF 2px solid;
+}
+
+.widget-instance .textinput:hover { border: 2px solid #336699 }
+.widgetname a, .widgetname a:link, .widgetname a:visited { color: #ddd }
+
+.widget-instance .textinput:focus {
+	font-style: normal;
+	border: 2px solid #1100FF;
+}
+
+.widget-placeholder {
+	padding: .5em;
+	font-style: oblique;
+	text-align: center;
+	border: 1px dashed #666666;
+}
+
+.widget-dragger {
+	text-align: left;
+	z-index: 1000;
+	padding: .5em;
+	height: 30px !important;
+}
+
+/* ===== PLUGINS ===== */
+
+#plugin-table { color: #777777 }
+#plugin-table-head, .enabled { color: white }
+
+/* ===== THEME PANEL ===== */
+#current-theme h5, #available-themes h5 { margin:0.5em }
+#available-themes { clear: both }
+#available-themes ul { list-style-type: none }
+#available-themes ul li:hover { background: #333333 }
+
+#current-theme {	 
+	margin-bottom: 2em;
+	overflow:hidden;
+}
+
+#current-theme img { 
+	float:left;
+	border: 1px solid #ddd;
+	margin-right: 2em;
+}
+
+#available-themes ul li {
+	float:left;
+	padding: 1em 2em 1em 2em;
+	text-align: center;
+	width: 300px;
+}
+
+/* ===== CONFIG PANEL ===== */
+#admin-config dt {
+    width: 33%;
+    text-align:right;
+    margin-top: 1.8em;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+#admin-config dd {
+    margin-left: 35%;
+    margin-top: -1.7em;
+    line-height: 1.5em;
+}
+
+#admin-config dt label { padding-top: .2em }
+#admin-config dl { margin-bottom: 4em }
+#admin-config dd p { margin: 0 }
+#admin-config dd input{ margin-bottom: .2em }
+#admin-config input.textinput , #admin-config select.textinput { width: 15em }
+#admin-config input.bigtextinput { width: 20em }
+#admin-config input.smalltextinput { width: 5em }
+
+/* ===== PREVIEW SETTINGS ===== */
+#post-preview h3 { color: #0066FF }
+#post-preview .entry .date { font-size: 11px }
+#post-preview .entry { padding: 1em }
+
+#post-preview ul { 
+	list-style-type: disc;
+	padding: 0 1.6 0 1.6em;
+	margin-top: 1em;
+}
+
+#post-preview  ol { 
+	list-style-position: inside; 
+	padding: 0 1.6em 0 1.6em
+}

@@ -1,0 +1,68 @@
+/*
+Theme Name: Snail-orange
+Author: Marcoverga86
+Version: 2.0
+Module: style.css
+*/
+
+/* ===== COLUMN ===== */
+#column {
+	background: #393939;
+	float: left;
+	width: 24% !important;
+	width: 21%;
+	font-size: 80% !important;
+	font-size: 75%;
+	margin: 0 0 15px 15px;
+	padding: 10px;
+}
+
+#column h4 {
+	color: #DAAA55;
+	border-bottom: 2px solid #333333;
+	padding: 5px 0 5px 5px;
+	margin-bottom: .5em;
+	border-top: 5px solid #2D2D2D;	
+}
+
+#column ul li, #column p { font-size: 12px }
+
+#column div { margin: 0 }
+#column div, #column ul { background: #393939 }
+#column p, #column div { margin: 10px 5px }
+#column a:link, #column a:visited { color: #A29D7D }
+
+#column a:hover {
+	text-decoration: underline;
+	/*color: #315A94;*/
+  color: #e69138;
+}
+
+/* === List === */
+#column ul li {
+	list-style-image: url('../imgs/circle.gif');
+	padding: 1px;
+	margin-left: 10px;
+}
+
+#column ul {
+	list-style-type: none;
+	margin-right: 10px;
+	margin-bottom: .5em;
+	padding-left: 1em
+}
+
+#column ul li table { font-size: 100%; color: #999999 }
+#column fieldset { margin: 0 5px 0 5px }
+#column legend { font-size: 100% }
+#column #widget-searchbox ul li { margin-left: -10px }
+
+#column #widget_calendar  table { 
+	width: 75%;
+	margin-left: -20px;
+}
+
+#column #widget_calendar li, #column #widget-searchbox li { 
+	list-style-image: none;
+	padding: 0
+}
