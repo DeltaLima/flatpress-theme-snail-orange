@@ -8,7 +8,7 @@
             		{comment}
             			<li id="{$id}" {$loggedin|notempty:"class=\"comment-admin\""}>
             				<strong class='comment-name'>
-            					{$url|notempty:"<a href=\"$url\" title=\"Permalink to $name's comment\">$name</a>"|default:$name}
+            					{$url|notempty:"<a href=\"$url\" title=\"Permalink to $name's comment\">$name"|default:$name}</a>
             				</strong>
 
 							{include file=shared:commentadminctrls.tpl} {* this shows edit/delete links*}
