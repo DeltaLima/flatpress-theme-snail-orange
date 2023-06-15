@@ -205,8 +205,9 @@ ol li, ul li { padding-bottom: 0.9em }
 #comments li.comment-admin strong.comment-name { font-size:160% }
 
 #comments li.comment-admin {
-	background-color: #DAAA55;
-	color: black;
+	/*background-color: #DAAA55;*/
+  background-color: #393939;
+	/*color: black;*/
 	padding: 1em;
 }
 
