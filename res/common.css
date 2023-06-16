@@ -7,7 +7,7 @@ Module: common.css
 
 /* ===== GENERAL (redefinition HTML tag) ===== */
 html {
-	font-size: 13px;
+	font-size: 14px;
 	font-family: Tahoma, 'Lucida Grande', 'Trebuchet MS', arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0
@@ -120,8 +120,8 @@ h6 { font-size: 0.9em }
 /* ===== DIV CONTAINER ALL ELEMENTS BLOCK ===== */
 #body-container {
 	text-align: left;
-	width: 72% !important;
-	width: 72%; /* fix for I.E. */
+	width: 80% !important;
+	width: 80%; /* fix for I.E. */
 	margin: 0 auto 10px auto;
 	padding: 5px;
 	background-color: #2D2D2D;
@@ -164,8 +164,8 @@ h6 { font-size: 0.9em }
   overflow: hidden;
   display: inline-block;
 	position: relative;
-	width: 67% !important;
-	width: 65%;
+	width: 70% !important;
+	width: 70%;
 	font-size: 100%;
 	margin: 0 0.5em 0 1.2em;
 }
@@ -230,7 +230,7 @@ ol li, ul li { padding-bottom: 0.9em }
 	height:1%; /* i.e. hack*/
 }
 	
-.entry p { font-size: 13px }
+.entry p { font-size: 16px }
 
 #main .entrytitle { 
 	font-family: Candara, 'Cataneo BT', 'book antiqua', georgia, garamond, times, 'times new roman';
