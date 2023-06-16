@@ -124,7 +124,8 @@ h6 { font-size: 0.9em }
 	width: 72%; /* fix for I.E. */
 	margin: 0 auto 10px auto;
 	padding: 5px;
-	background-color: #2D2D2D
+	background-color: #2D2D2D;
+  overflow: hidden;
 }
 
 /* ===== HEAD ===== */
@@ -159,10 +160,12 @@ h6 { font-size: 0.9em }
 }
 
 #main {
-	float:right;
+	/*float:right;*/
+  overflow: hidden;
+  display: inline-block;
 	position: relative;
-	width: 74% !important;
-	width: 71%;
+	width: 67% !important;
+	width: 65%;
 	font-size: 100%;
 	margin: 0 0.5em 0 1.2em;
 }
