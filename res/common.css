@@ -124,8 +124,8 @@ h6 { font-size: 0.9em }
 /* ===== DIV CONTAINER ALL ELEMENTS BLOCK ===== */
 #body-container {
 	text-align: left;
-	width: 67% !important;
-	width: 67%; /* fix for I.E. */
+	width: 69% !important;
+	width: 69%; /* fix for I.E. */
 	margin: 0 auto 10px auto;
 	padding: 5px;
 	background-color: #2D2D2D;
