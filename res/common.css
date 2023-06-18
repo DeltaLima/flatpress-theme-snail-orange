@@ -124,8 +124,8 @@ h6 { font-size: 0.9em }
 /* ===== DIV CONTAINER ALL ELEMENTS BLOCK ===== */
 #body-container {
 	text-align: left;
-	width: 80% !important;
-	width: 80%; /* fix for I.E. */
+	width: 67% !important;
+	width: 67%; /* fix for I.E. */
 	margin: 0 auto 10px auto;
 	padding: 5px;
 	background-color: #2D2D2D;
@@ -168,8 +168,8 @@ h6 { font-size: 0.9em }
   overflow: hidden;
   display: inline-block;
 	position: relative;
-	width: 70% !important;
-	width: 70%;
+	width: 69% !important;
+	width: 69%;
 	font-size: 100%;
 	margin: 0 0.5em 0 1.2em;
 }
