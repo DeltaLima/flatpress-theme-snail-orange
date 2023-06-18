@@ -15,7 +15,7 @@ Module: style.css
 	font-size: 85% !important;
 	font-size: 80%;
 	margin: 0 0 15px 0;
-	padding: 10px;
+	padding: 0px;
 }
 
 #column h4 {
@@ -33,7 +33,7 @@ Module: style.css
 #column div { 
 /*	background: #393939  */
         background-color: rgba(0, 0, 0, 0.2);
-	border-radius: 15px;
+	border-radius: 5px;
 	padding: 2px;
 
 }
