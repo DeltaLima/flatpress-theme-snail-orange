@@ -14,7 +14,7 @@ html {
 }
 
 body {
-	color: #999999;
+	color: #CCCCCC;
 	padding: 0;
 	text-align: center;
 	/*background: #315A94;*/
@@ -30,7 +30,7 @@ blockquote {
 	margin: 1em 1em;
 	padding: 0 10px;
 	/*border-left: 10px solid white;*/
-  border-left: 10px solid #a8a8a8;
+  border-left: 10px solid #444444;
 }
 
 pre, code {
@@ -39,11 +39,15 @@ pre, code {
 }
 
 pre {
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
+
+	/* border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd; */
 	/*background-color: #efefef;*/
-  background-color: #a8a8a8;
-  color: black;
+	/*  background-color: #a8a8a8;*/
+	/*border-bottom: 1px solid #555;*/
+	border: 1px solid #555;
+	background-color: #444444;
+	color: #CCCCCC;
 	overflow: auto;
 	width: 90%;
 	margin: 1em 1em;

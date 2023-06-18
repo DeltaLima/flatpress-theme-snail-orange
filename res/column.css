@@ -22,7 +22,7 @@ Module: style.css
 	border-bottom: 2px solid #333333;
 	padding: 5px 0 5px 5px;
 	margin-bottom: .5em;
-	border-top: 5px solid #2D2D2D;	
+/*	border-top: 5px solid #2D2D2D;	*/
 }
 
 #column ul li, #column p { font-size: 14px }
