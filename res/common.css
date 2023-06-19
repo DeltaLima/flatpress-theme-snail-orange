@@ -151,7 +151,8 @@ h6 { font-size: 0.9em }
 	float: center;
 }
 #head-bubble {
-        background-color: rgba(0, 0, 0, 0.2);
+/*        background-color: rgba(0, 0, 0, 0.2);*/
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.1));
 	border-radius: 15px;
   	width: 100% !important;
 	height: 124px;
