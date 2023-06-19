@@ -9,17 +9,19 @@
 <body>
 	<div id="body-container">
 		<div id="head">
+		<a href="/blog/index.php/welcome">
 			<div id="head-bubble">
 				<div id="title-container">
-					<h1><a href="index.php">{$flatpress.TITLE}</a></h1>
+					<!-- <h1><a href="index.php/welcome">{$flatpress.TITLE}</a></h1> -->
+					<h1>{$flatpress.TITLE}</h1>
 					<p class="subtitle">{$flatpress.SUBTITLE}</p>
 				</div>
 				<div id="logo-container">
 					<img id="logo-img" src="/blog/fp-interface/themes/flatpress-theme-snail-orange/imgs/Mandrake-Tux_redraw.png">
 				</div>
 				<div id="clear-container"></div>
-
 			</div>
+		 </a>
 		</div>
 	<hr />
 <div id="outer-container">
