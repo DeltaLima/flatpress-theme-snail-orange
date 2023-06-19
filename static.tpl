@@ -3,7 +3,7 @@
 		{static_block}
     		{static}
 	    		<div id="{$id}" class="entry">
-		    		<h3>{$subject}</h3>
+		    		<h2>{$subject}</h2>
                     <p class="date">Published by {$author} on {$date|date_format:"%A, %B %e, %Y - %H:%M:%S"}</p>
                 	{$content|tag:the_content}
 			     </div>
