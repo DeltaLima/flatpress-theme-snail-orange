@@ -9,7 +9,7 @@
 <body>
 	<div id="body-container">
 		<div id="head">
-		<a href="/blog/index.php/welcome">
+		<a href="{$flatpress.WWW}index.php/welcome">
 			<div id="head-bubble">
 				<div id="title-container">
 					<!-- <h1><a href="index.php/welcome">{$flatpress.TITLE}</a></h1> -->
