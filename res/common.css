@@ -67,10 +67,10 @@ pre {
 	box-shadow: 3px 3px 6px black;
 }
 
-code {
+:not(pre) > code {
 	background-color: rgba(0, 0, 0, 0.2);
 	border-radius: 3px;
-	padding: 0 3px;
+	padding: 0px 3px;
 }
 
 ul, li, ol { margin: 0; padding: 0 }
