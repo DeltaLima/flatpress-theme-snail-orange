@@ -17,7 +17,7 @@
 					<p class="subtitle">{$flatpress.SUBTITLE}</p>
 				</div>
 				<div id="logo-container">
-					<img id="logo-img" src="fp-interface/themes/flatpress-theme-snail-orange/imgs/Mandrake-Tux_redraw.png">
+					<img id="logo-img" src="{$flatpress.WWW}fp-interface/themes/{$flatpress.THEME}/imgs/Mandrake-Tux_redraw.png">
 				</div>
 				<div id="clear-container"></div>
 			</div>
